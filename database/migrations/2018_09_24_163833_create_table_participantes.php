@@ -22,7 +22,7 @@ class CreateTableParticipantes extends Migration
             $table->string('opc2');
             $table->integer('estado')->default(1);
             $table->unsignedBigInteger('test_id');
-            $table->timestamps();
+            $table->timestamps()->useCurrent();
             $table->softDeletes();
 
             $table->foreign('test_id')->references('id')->on('tests');

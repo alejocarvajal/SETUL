@@ -50,7 +50,5 @@ class Pregunta extends Model
                 'correcta' => 0,
             ]);
         });
-
-
     }
 }

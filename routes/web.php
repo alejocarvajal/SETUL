@@ -53,3 +53,11 @@ Route::get('/admin/preguntas/{pregunta}/edit','PreguntaController@edit')->name('
 Route::post('/admin/preguntas','PreguntaController@store');
 Route::put('/admin/preguntas/{pregunta}', 'PreguntaController@update')->name('pregunta.update');
 Route::delete('/admin/preguntas/{pregunta}', 'PreguntaController@destroy')->name('pregunta.destroy');
+
+/*RUTAS DE PARTICIPANTE*/
+Route::get('/admin/participantes', 'ParticipanteController@index');
+Route::get('/admin/participantes/new','ParticipanteController@create')->name("participante.create");
+Route::get('/admin/participantes/{participante}/edit','ParticipanteController@edit')->name('participante.edit');
+Route::post('/admin/participantes','ParticipanteController@store');
+Route::put('/admin/participantes/{participante}', 'ParticipanteController@update')->name('participante.update');
+Route::delete('/admin/participantes/{participante}', 'ParticipanteController@destroy')->name('participante.destroy');

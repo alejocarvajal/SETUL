@@ -110,10 +110,10 @@
                                 <a href="#"><i class="fa fa-child fa-fw"></i> Participantes<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="{!!URL('/participantes/create') !!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                        <a href="{!!URL('/admin/participantes/new') !!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
                                     </li>
                                     <li>
-                                        <a href="{!!URL('/participantes') !!}"><i class='fa fa-list-ol fa-fw'></i> Participantes</a>
+                                        <a href="{!!URL('/admin/participantes') !!}"><i class='fa fa-list-ol fa-fw'></i> Participantes</a>
                                     </li>
                                 </ul>
                             </li>

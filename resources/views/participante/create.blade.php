@@ -1,9 +1,9 @@
 @extends('layouts.admin')
-@section('title', "Crear Pregunta")
+@section('title', "Crear Participante")
 
 @section('contenido')
     <div class="card">
-        <h4 class="card-header">Crear Pregunta</h4>
+        <h4 class="card-header">Crear Participante</h4>
         <div class="card-body">
 
             @if ($errors->any())
@@ -17,8 +17,8 @@
                 </div>
             @endif
 
-            <form method="POST" action="{{ url('admin/preguntas') }}">
-                @include('pregunta.preguntaForm.form')
+            <form method="POST" action="{{ url('admin/participantes') }}">
+                @include('participante.participanteForm.form')
             </form>
         </div>
     </div>

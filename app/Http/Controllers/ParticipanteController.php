@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Participante;
 use App\Test;
+use App\Exports\ParticipantesExport;
+use App\Imports\ParticipantesImport;
+use Maatwebsite\Excel\Facades\Excel;
 
 //use Illuminate\Http\Request;
 
@@ -137,5 +140,26 @@ class ParticipanteController extends Controller
     public function destroy($id)
     {
         //
+    }
+    /**
+    * @return \Illuminate\Support\Collection
+    */
+    public function export() 
+    {
+        return Excel::download(new ParticipantesExport, 'participantes.xlsx');
+    }
+   
+    /**
+    * @return \Illuminate\Support\Collection
+    */
+    public function import() 
+    {
+        Excel::import(new ParticipantesImport,request()->file('file'));
+           
+        return redirect()->action('ParticipanteController@index');
+    }
+    public function importView()
+    {
+       return view('participante.importar');
     }
 }

@@ -19,8 +19,6 @@
 <body>
 
     <div id="wrapper">
-
-        
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -104,6 +102,9 @@
                                     <li>
                                         <a href="{!!URL('/admin/preguntas') !!}"><i class='fa fa-list-ol fa-fw'></i> Preguntas</a>
                                     </li>
+                                    <li>
+                                        <a href="{!!URL('/admin/preguntas/importView') !!}"><i class='fa fa-list-ol fa-fw'></i> Importar</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -114,6 +115,9 @@
                                     </li>
                                     <li>
                                         <a href="{!!URL('/admin/participantes') !!}"><i class='fa fa-list-ol fa-fw'></i> Participantes</a>
+                                    </li>
+                                    <li>
+                                        <a href="{!!URL('/admin/participantes/importView') !!}"><i class='fa fa-list-ol fa-fw'></i> Importar</a>
                                     </li>
                                 </ul>
                             </li>

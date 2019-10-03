@@ -51,4 +51,51 @@ class Pregunta extends Model
             ]);
         });
     }
+    public static function createPreguntaImport($data)
+    {
+
+        $asignatura = DB::table('asignaturas')->where('nombre', $data['materia'] )->first();
+        if($asignatura){
+            $data['asignatura_id']=$asignatura->id;
+            DB::transaction(function () use ($data) {
+                $complejidad="";
+                switch($data['complejidad']){
+                    case 'Alta':
+                        $complejidad=3;
+                        break;
+                    case 'Media':
+                        $complejidad=2;
+                        break;
+                    case 'Baja':
+                        $complejidad=1;
+                        break;
+                    default:
+                        $complejidad=1;
+                }
+                $pregunta = Pregunta::create([
+                    'pregunta' => $data['pregunta'],
+                    'docente' => $data['docente'],
+                    'asignatura_id' => $data['asignatura_id'],
+                    'dificultad' => $complejidad
+                ]);
+
+                $pregunta->respuestas()->create([
+                    'respuesta' => $data['respuesta_correcta'],
+                    'correcta' => 1,
+                ]);
+                $pregunta->respuestas()->create([
+                    'respuesta' => $data['respuesta_incorrecta1'],
+                    'correcta' => 0,
+                ]);
+                $pregunta->respuestas()->create([
+                    'respuesta' => $data['respuesta_incorrecta2'],
+                    'correcta' => 0,
+                ]);
+                $pregunta->respuestas()->create([
+                    'respuesta' => $data['respuesta_incorrecta3'],
+                    'correcta' => 0,
+                ]);
+            });
+        }
+    }
 }

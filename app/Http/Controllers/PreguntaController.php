@@ -6,6 +6,9 @@ use App\Asignatura;
 use App\Pregunta;
 use App\Respuesta;
 use Illuminate\Http\Request;
+use App\Exports\PreguntasExport;
+use App\Imports\PreguntasImport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class PreguntaController extends Controller
 {
@@ -153,5 +156,26 @@ class PreguntaController extends Controller
     public function destroy(Pregunta $pregunta)
     {
         //
+    }
+        /**
+    * @return \Illuminate\Support\Collection
+    */
+    public function export() 
+    {
+        return Excel::download(new PreguntasExport, 'preguntas.xlsx');
+    }
+   
+    /**
+    * @return \Illuminate\Support\Collection
+    */
+    public function import() 
+    {
+        Excel::import(new PreguntasImport,request()->file('file'));
+           
+        return redirect()->action('PreguntaController@index');
+    }
+    public function importView()
+    {
+       return view('pregunta.importar');
     }
 }

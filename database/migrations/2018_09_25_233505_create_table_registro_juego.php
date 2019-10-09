@@ -19,7 +19,9 @@ class CreateTableRegistroJuego extends Migration
             $table->unsignedBigInteger('pregunta_id');
             $table->unsignedBigInteger('respuesta_id')->nullable();
             $table->integer('orden');
+            $table->integer('estado')->default(0);
             $table->timestamps();
+            $table->softDeletes();
             $table->foreign('participante_id')->references('id')->on('participantes');
             $table->foreign('pregunta_id')->references('id')->on('preguntas');
             $table->foreign('respuesta_id')->references('id')->on('respuestas');

@@ -122,13 +122,13 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-file fa-fw"></i> Archivos<span class="fa arrow"></span></a>
+                                <a href="#"><i class="fa fa-file fa-fw"></i> Configuraci&oacute;n<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
-                                        <a href="{!!URL('/subir/up') !!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
+                                        <a href="{!!URL('/admin/config/new') !!}"><i class='fa fa-plus fa-fw'></i> Agregar</a>
                                     </li>
                                     <li>
-                                        <a href="{!!URL('/subir') !!}"><i class='fa fa-list-ol fa-fw'></i> Archivos</a>
+                                        <a href="{!!URL('/admin/config') !!}"><i class='fa fa-list-ol fa-fw'></i> Configuracion</a>
                                     </li>
                                 </ul>
                             </li>

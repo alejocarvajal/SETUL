@@ -18,6 +18,7 @@ class CreateTableConfiguracion extends Migration
             $table->string('nombre');
             $table->string('valor');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

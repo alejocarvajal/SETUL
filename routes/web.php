@@ -68,3 +68,10 @@ Route::get('/admin/participantes/export', 'ParticipanteController@export')->name
 Route::get('/admin/participantes/importView', 'ParticipanteController@importView');
 Route::post('/admin/participantes/import', 'ParticipanteController@import')->name('import');
 
+/*RUTAS DE COONFIGURACION*/
+Route::get('/admin/config', 'ConfigController@index');
+Route::get('/admin/config/new','ConfigController@create')->name("config.create");
+Route::get('/admin/config/{configuracion}/edit','ConfigController@edit')->name('config.edit');
+Route::post('/admin/config','ConfigController@store');
+Route::put('/admin/config/{configuracion}', 'ConfigController@update')->name('config.update');
+Route::delete('/admin/config/{configuracion}', 'ConfigController@destroy')->name('config.destroy');

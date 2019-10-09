@@ -22,7 +22,14 @@ class Pregunta extends Model
     {
         return $this->hasOne(Asignatura::class);
     }
-
+    public static function obtenerCantidadPreguntasDificultad($asignaturas_id,$dificultad,$cantidad){
+        $preguntas = Pregunta::whereIn('asignatura_id',$asignaturas_id)
+        ->where("dificultad","=",$dificultad)
+        ->inRandomOrder()
+        ->limit($cantidad)
+        ->get();
+        return $preguntas;
+    }
     public static function createPregunta($data)
     {
         DB::transaction(function () use ($data) {

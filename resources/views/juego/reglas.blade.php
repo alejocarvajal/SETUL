@@ -22,7 +22,7 @@
  h1,h2,span { color: white; }
 </style>
 <html>
-<body background="{{ asset('images/Fondo2.jpg') }}">
+<body background="{{ asset( $fondo_juego->valor ) }}">
 <div class="contenido2">
 	<h1>{{ $participante->nombres}}</h1>
 	<br/>

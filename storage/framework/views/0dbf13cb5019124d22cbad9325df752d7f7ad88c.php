@@ -1,12 +1,12 @@
-<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" >
-<link rel="stylesheet" href="{{ asset('css/noty.css') }}" >
-<link rel="stylesheet" href="{{ asset('css/mint.scss') }}" >
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-<script src="{{ asset('js/noty.min.js') }}"></script>
+<link rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>" >
+<link rel="stylesheet" href="<?php echo e(asset('css/noty.css')); ?>" >
+<link rel="stylesheet" href="<?php echo e(asset('css/mint.scss')); ?>" >
+<script src="<?php echo e(asset('js/jquery.min.js')); ?>"></script>
+<script src="<?php echo e(asset('js/noty.min.js')); ?>"></script>
 <style xmlns="http://www.w3.org/1999/html">
 
 body{
-background: url('{{ asset( $fondo_juego->valor ) }}') no-repeat center center fixed;
+background: url('<?php echo e(asset( $fondo_juego->valor )); ?>') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -68,14 +68,14 @@ th {
 }	
 
 </style>
-<link href='{{ asset( "css/estilo_botones.css" ) }}' rel="stylesheet">
+<link href='<?php echo e(asset( "css/estilo_botones.css" )); ?>' rel="stylesheet">
 <html>
 <body>
 <audio id="suspenso" autoplay loop>
-   <source src='{{ asset( "audio/musica-suspenso-.mp3" ) }}' type="audio/mp3" />
+   <source src='<?php echo e(asset( "audio/musica-suspenso-.mp3" )); ?>' type="audio/mp3" />
 </audio>
 <audio id="seleccion">
-   <source src='{{ asset( "audio/seleccion.mp3" ) }}' type="audio/mp3" />
+   <source src='<?php echo e(asset( "audio/seleccion.mp3" )); ?>' type="audio/mp3" />
 </audio>	
 <div class="global">
 <table id="estructura" border="0">
@@ -91,34 +91,34 @@ th {
 		<form action="preguntas.php" method="post">
 			<div style="padding-top: 1em;">
 		  		<div class="panel panel-default">
-		    		<div class="panel-heading" style="background-image: url({{ asset( $fondo_juego->valor ) }}); color:white; font-weight: bold">Pregunta #<span id="contador_pregunta">1<span></div>
+		    		<div class="panel-heading" style="background-image: url(<?php echo e(asset( $fondo_juego->valor )); ?>); color:white; font-weight: bold">Pregunta #<span id="contador_pregunta">1<span></div>
 					<table id="tabla_respuesta" class="table">
 					<tbody>
-					<caption align="top"><center><span id="texto_pregunta">{{ $pregunta->pregunta }}</span></center></caption>
-		    		<tr id="{{ $respuestas[0]->id }}" onclick="verificar_respuesta({{ $respuestas[0]->id }})" class="contenido2 respuesta tr_respuesta" >
+					<caption align="top"><center><span id="texto_pregunta"><?php echo e($pregunta->pregunta); ?></span></center></caption>
+		    		<tr id="<?php echo e($respuestas[0]->id); ?>" onclick="verificar_respuesta(<?php echo e($respuestas[0]->id); ?>)" class="contenido2 respuesta tr_respuesta" >
 		      			<td>      				
-							<span id="texto_r1">A) {{ $respuestas[0]->respuesta }}</span>					
+							<span id="texto_r1">A) <?php echo e($respuestas[0]->respuesta); ?></span>					
 						</td>
 		    		</tr>
-				    <tr id="{{ $respuestas[1]->id }}" onclick="verificar_respuesta({{ $respuestas[1]->id }})" class="contenido3 respuesta tr_respuesta">
+				    <tr id="<?php echo e($respuestas[1]->id); ?>" onclick="verificar_respuesta(<?php echo e($respuestas[1]->id); ?>)" class="contenido3 respuesta tr_respuesta">
 				      	<td>
-				      		<span id="texto_r2">B) {{ $respuestas[1]->respuesta }}</span>
+				      		<span id="texto_r2">B) <?php echo e($respuestas[1]->respuesta); ?></span>
 						</td>
 				    </tr>
-				    <tr id="{{ $respuestas[2]->id }}" onclick="verificar_respuesta({{ $respuestas[2]->id }})" class="contenido4 respuesta tr_respuesta">
+				    <tr id="<?php echo e($respuestas[2]->id); ?>" onclick="verificar_respuesta(<?php echo e($respuestas[2]->id); ?>)" class="contenido4 respuesta tr_respuesta">
 				      	<td>		      		
-							<span id="texto_r3">C) {{ $respuestas[2]->respuesta }}</span>
+							<span id="texto_r3">C) <?php echo e($respuestas[2]->respuesta); ?></span>
 						</td>
 				    </tr>
-				    <tr id="{{ $respuestas[3]->id }}" onclick="verificar_respuesta({{ $respuestas[3]->id }})" class="contenido5 respuesta tr_respuesta">
+				    <tr id="<?php echo e($respuestas[3]->id); ?>" onclick="verificar_respuesta(<?php echo e($respuestas[3]->id); ?>)" class="contenido5 respuesta tr_respuesta">
 				      	<td>	      		
-							<span id="texto_r4">D) {{ $respuestas[3]->respuesta }}</span>
+							<span id="texto_r4">D) <?php echo e($respuestas[3]->respuesta); ?></span>
 						</td>
 				    </tr>   
 		  			</tbody>
 					</table>
 					<table id="tabla_ayuda" class="table table-bordered"><tbody>
-					<tr style="background-image: url('{{ asset( $fondo_juego->valor ) }}');"><th colspan="3">Ayudas</th></tr>
+					<tr style="background-image: url('<?php echo e(asset( $fondo_juego->valor )); ?>');"><th colspan="3">Ayudas</th></tr>
 					<tr>
 					<td><span class="puntajes" id="llamada" onclick="usar_llamada()">Ayuda de un amigo<span></td>
 					<td><span class="puntajes" id="elimina" onclick="usar_elimina()">50/50</span></td>
@@ -126,15 +126,15 @@ th {
 					</tr></tbody></table>
 		  		</div>
 			</div>		
-			<input type="hidden" id="pregunta" name="pregunta" value="{{ $pregunta->id }}">
-			<input type="hidden" id="id" name="id" value="{{ $registro_juego[0]->participante_id }}">
+			<input type="hidden" id="pregunta" name="pregunta" value="<?php echo e($pregunta->id); ?>">
+			<input type="hidden" id="id" name="id" value="<?php echo e($registro_juego[0]->participante_id); ?>">
 			<input type="hidden" id="consecutivo" name="consecutivo" value="1">
-			<input type="hidden" id="cantidad_preguntas" name="consecutivo" value="{{ $registro_juego->count() }}">
+			<input type="hidden" id="cantidad_preguntas" name="consecutivo" value="<?php echo e($registro_juego->count()); ?>">
 <audio id="aplausos">
-   <source src='{{ asset( "audio/aplausos.mp3" ) }}' type="audio/mp3" />
+   <source src='<?php echo e(asset( "audio/aplausos.mp3" )); ?>' type="audio/mp3" />
 </audio>
 <audio id="error">
-   <source src='{{ asset( "audio/error.mp3" ) }}' type="audio/mp3" />
+   <source src='<?php echo e(asset( "audio/error.mp3" )); ?>' type="audio/mp3" />
 </audio>			
 		</form>
 	</div>
@@ -146,8 +146,9 @@ th {
 		<div class="reloj" id="Segundos">&nbsp;00</div>
 		<div class="reloj" id="Centesimas">&nbsp;00</div>
 		<input type="button" class="boton btn btn-success" id="inicio" value="Comenzar &#9658;" onclick="inicio();"><br><br>
-		<form action="{{ route('juego.restart', $registro_juego[0]->id) }}" method="post">
-			{{ csrf_field() }}
+		<form action="<?php echo e(route('juego.restart', $registro_juego[0]->id)); ?>" method="post">
+			<?php echo e(csrf_field()); ?>
+
 			<input type="submit" class="boton btn btn-info"id="reiniciar_partida" value="Reiniciar Partida &#9658;">
 		</form>
 	</td>
@@ -336,4 +337,4 @@ function verificar_respuesta(opc){
 		});
 	}
 	
-</script>
+</script><?php /**PATH F:\SETUL\resources\views/juego/preguntas.blade.php ENDPATH**/ ?>

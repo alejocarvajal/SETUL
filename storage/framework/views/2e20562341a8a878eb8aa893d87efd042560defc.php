@@ -1,6 +1,5 @@
-
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo e(asset('css/bootstrap.css')); ?>" rel="stylesheet">
+<link href="<?php echo e(asset('css/bootstrap.min.css')); ?>" rel="stylesheet">
 <style>
 #all{
     width:100%;
@@ -16,7 +15,7 @@ div.sub, iframe {
 }
 </style>
 <div style="background-image: url('<?php echo e(asset( $fondo_juego->valor )); ?>');" id="all">
-    <iframe src="preguntas.php?id=<?php echo e($participante->id); ?>"  marginwidth="0" marginheight="0" frameborder="0" scrolling="yes"></iframe>
+    <iframe src="<?php echo e(route('juego.preguntasJuego', $participante->id)); ?>"  marginwidth="0" marginheight="0" frameborder="0" scrolling="yes"></iframe>
 </div>
 ?>
 <?php /**PATH F:\SETUL\resources\views/juego/start.blade.php ENDPATH**/ ?>

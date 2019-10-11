@@ -46,4 +46,24 @@ class juegoController extends Controller
 
         return view('juego.start', compact('participante','fondo_juego','preguntas'));
     }
+    public function preguntasJuego(Participante $participante){
+        $fondo_juego = Configuracion::where("nombre","=","fondo_modo_juego")->first();
+        $registro_juego = RegistroJuego::where('participante_id','=',$participante->id)
+                        ->whereNull("respuesta_id")
+                        ->where("estado","=","1")
+                        ->orderBy('orden','asc')->get();
+        $pregunta = Pregunta::find($registro_juego[0]->pregunta_id);
+        
+        $respuestas = Pregunta::find($registro_juego[0]->pregunta_id)->respuestas()->get();
+        
+        return view('juego.preguntas', compact('fondo_juego','registro_juego','pregunta','respuestas'));
+    }
+    public function reiniciarJuego(Participante $participante){
+        
+        $campos_registro_juego = ([
+            'estado' => 0
+        ]);
+        RegistroJuego::where('participante_id',$participante->id)->update($campos_registro_juego);
+        return response()->json(['success'=>'Reinicio']);
+    }
 }

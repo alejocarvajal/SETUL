@@ -13,7 +13,9 @@
 
 Route::get('/', 'juegoController@index');
 Route::get('/juego/participante/{participante}', 'juegoController@reglas')->name('juego.index');
+Route::get('/juego/participante/preguntas/{participante}', 'juegoController@preguntasJuego')->name('juego.preguntasJuego');
 Route::post('/juego/participante/start/{participante}', 'juegoController@start')->name('juego.start');
+Route::post('/juego/participante/restart', 'juegoController@reiniciarJuego')->name('juego.restart');
 
 Auth::routes();
 

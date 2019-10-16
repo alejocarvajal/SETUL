@@ -30,6 +30,18 @@ class Pregunta extends Model
         ->get();
         return $preguntas;
     }
+    public static function respuestaCorrecta($pregunta_id,$respuesta_id){
+        $resp=true;
+        $respuesta = Respuesta::where('pregunta_id',$pregunta_id)
+        ->where("id","=",$respuesta_id)
+        ->where("correcta","=",1)
+        ->get();
+        
+        if($respuesta->isEmpty()){
+            $resp=false;
+        }
+        return $resp;
+    }
     public static function createPregunta($data)
     {
         DB::transaction(function () use ($data) {

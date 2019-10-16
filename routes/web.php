@@ -14,8 +14,11 @@
 Route::get('/', 'juegoController@index');
 Route::get('/juego/participante/{participante}', 'juegoController@reglas')->name('juego.index');
 Route::get('/juego/participante/preguntas/{participante}', 'juegoController@preguntasJuego')->name('juego.preguntasJuego');
+Route::get('/juego/participante/preguntas/resumen/{participante}', 'juegoController@resumen')->name('juego.resumen');
 Route::post('/juego/participante/start/{participante}', 'juegoController@start')->name('juego.start');
-Route::post('/juego/participante/restart', 'juegoController@reiniciarJuego')->name('juego.restart');
+Route::post('/juego/participante/preguntas/verificar_respuesta', 'juegoController@verificarRespuesta')->name('juego.verificarRespuesta');
+Route::post('/juego/participante/preguntas/ayuda_respuesta', 'juegoController@ayudarRespuesta')->name('juego.ayudarRespuesta');
+Route::put('/juego/participante/preguntas/restart/{participante}', 'juegoController@reiniciarJuego');
 
 Auth::routes();
 

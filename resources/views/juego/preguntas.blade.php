@@ -146,10 +146,7 @@ th {
 		<div class="reloj" id="Segundos">&nbsp;00</div>
 		<div class="reloj" id="Centesimas">&nbsp;00</div>
 		<input type="button" class="boton btn btn-success" id="inicio" value="Comenzar &#9658;" onclick="inicio();"><br><br>
-		<form action="{{ route('juego.restart', $registro_juego[0]->id) }}" method="post">
-			{{ csrf_field() }}
-			<input type="submit" class="boton btn btn-info"id="reiniciar_partida" value="Reiniciar Partida &#9658;">
-		</form>
+		<input type="button" class="boton btn btn-info"id="reiniciar_partida" onclick="reiniciar_partida()" value="Reiniciar Partida &#9658;">
 	</td>
 	</tr>
 	</table>
@@ -216,16 +213,41 @@ function cronometro () {
 		Horas.innerHTML = horas;
 	}
 }	
+function reiniciar_partida(){
+    $.ajax({
+        url: "restart/{{ $registro_juego[0]->participante_id }}",
+        async: false,
+        type: "POST",
+        dataType: "json",
+        data: {
+            _method: "PUT",
+			_token: "{{ csrf_token() }}",
+        }
+    }).done(function(data){
+        if(data){
+			window.top.location.href = "{{ url('/') }}"; 
+        }else{
+            new Noty({
+                text: "Error al reiniciar",
+                type: "error",
+                timeout: '2000',
+                layout: "topCenter"
+            }).show();
+        }
+    });
+}
 
 function verificar_respuesta(opc){
+	console.log(opc);
 	if(responder==1){
 	parar();
 		$.ajax({
-		url: "verificar_respuesta.php",
+		url: "verificar_respuesta",
 		async:false,
 		type: "POST",
 		dataType: "json",
 		data: {
+			_token: "{{ csrf_token() }}",
 			tipo:opc,
 			idpregunta:$('#pregunta').val(),
 			id:$('#id').val(),
@@ -260,7 +282,7 @@ function verificar_respuesta(opc){
 						}).show();
 						$("#error")[0].play();
 						setTimeout(function(){
-							window.location="resumen_juego.php?id="+data.jugador;
+							window.location="resumen/"+data.jugador;
 						}, 3500);
 						
 					}
@@ -273,7 +295,7 @@ function verificar_respuesta(opc){
 							layout: "topCenter"
 						}).show();
 						setTimeout(function(){
-							window.location="resumen_juego.php?id="+data.jugador;
+							window.location="resumen/"+data.jugador;
 						}, 4000);
 					}
 					$("#texto_pregunta").html(data.pregunta);
@@ -308,7 +330,7 @@ function verificar_respuesta(opc){
 				
 			}else{
 				alert("Fin del juego");
-				window.location="resumen_juego.php?id="+data.jugador;
+				window.location="resumen/"+data.jugador;
 			}
 		});
 	}
@@ -321,18 +343,17 @@ function verificar_respuesta(opc){
 	function usar_elimina(){
 		$("#elimina").hide();
 		$.ajax({
-					type:'POST',
-					async:false,
-					url: "verificar_respuesta.php",
-					dataType: "json",
-					data: {
-						idpregunta:$('#pregunta').val(),
-						elimina:'1'
-					}
-					}).done(function(data){
-						$('#'+data.r1).hide();
-						$('#'+data.r2).hide();
-					
+			type:'POST',
+			async:false,
+			url: "ayuda_respuesta",
+			dataType: "json",
+			data: {
+				_token: "{{ csrf_token() }}",
+				idpregunta:$('#pregunta').val()
+			}
+		}).done(function(data){
+			$('#'+data.r1).hide();
+			$('#'+data.r2).hide();
 		});
 	}
 	

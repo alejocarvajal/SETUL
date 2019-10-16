@@ -19,9 +19,9 @@
 						</td>
 					</tr>
 				@endforeach
-				<tr>
+				<!--tr>
 					<td colspan="3" ><a href="desempate.php" style="text-align: center; color: red;">DESEMPATE</a> </td>
-				</tr>
+				</tr-->
 				<tr>
 					<td colspan="3" >{{ $participantes->links() }}</td>
 				</tr>

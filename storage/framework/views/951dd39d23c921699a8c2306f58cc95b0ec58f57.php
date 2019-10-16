@@ -20,9 +20,9 @@
 						</td>
 					</tr>
 				<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-				<tr>
+				<!--tr>
 					<td colspan="3" ><a href="desempate.php" style="text-align: center; color: red;">DESEMPATE</a> </td>
-				</tr>
+				</tr-->
 				<tr>
 					<td colspan="3" ><?php echo e($participantes->links()); ?></td>
 				</tr>

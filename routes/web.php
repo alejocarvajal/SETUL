@@ -24,7 +24,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//Route::group(['middleware' => 'auth'], function () {
+Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin', 'adminController@index');
     /*RUTAS DE USUARIOS*/
     Route::get('/admin/users/{user}', 'AdminController@show')
@@ -81,7 +81,7 @@ Route::get('/home', 'HomeController@index')->name('home');
     Route::post('/admin/config','ConfigController@store');
     Route::put('/admin/config/{configuracion}', 'ConfigController@update')->name('config.update');
     Route::delete('/admin/config/{configuracion}', 'ConfigController@destroy')->name('config.destroy');
-//});
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Administraci&oacute;n SETUL</a>
+                <a class="navbar-brand" href="{!!URL('/admin') !!}">Administraci&oacute;n SETUL</a>
             </div>
            
 

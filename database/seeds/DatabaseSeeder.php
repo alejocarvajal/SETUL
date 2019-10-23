@@ -16,8 +16,6 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call(UserSeeder::class);
-        $this->call(AsignaturaSeeder::class);
-        $this->call(TestSeeder::class);
     }
 
     protected function truncateTables(array $tables)

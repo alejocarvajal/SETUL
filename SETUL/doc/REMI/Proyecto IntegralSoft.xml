@@ -41,7 +41,7 @@ Ninguno</rem:comments>
 <rem:organization
  oid = "ORG-0001">
 <rem:name>
-Abogados Asociados S.A</rem:name>
+Universidad Libre Seccional Pereira</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -757,10 +757,1281 @@ Casos de uso</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>5 </rem:number>
+<rem:section
+ oid = "SEC-0014">
+<rem:name>
+Administración de Usuarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.1 </rem:number>
+<rem:useCase
+ oid = "UC-0008">
+<rem:name>
+Crear Usuario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Estar logueado en el sistema</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0044">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Selecciona opción &quot;Agregar&quot; en el menú de Usuarios</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0045">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de creacion de usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0046">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0047">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0009">
+<rem:condition>
+hacen falta campos obligatorios</rem:condition>
+<rem:systemAction>
+<rem:description>
+Le informa al socio que debe diligenciar todos los campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0048">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema guarda el registro del nuevo usuario y redirecciona al listado de usuarios</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0009">
+<rem:name>
+Editar Usuario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener Usuario creado</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0049">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de usuarios</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0050">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de usuarios</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0051">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Editar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0052">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de edición de usuario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0053">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0054">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0010">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0055">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema actualiza el registro del usuario y redirecciona al listado de usuarios</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0010">
+<rem:name>
+Eliminar Usuario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener usuario creado</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0056">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de usuarios</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0057">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de usuarios</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0058">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Eliminar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0059">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema inactiva al usuario y redirecciona al listado de usuarios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0011">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de usuarios</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0015">
+<rem:name>
+Administración de Asignaturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.2 </rem:number>
+<rem:useCase
+ oid = "UC-0011">
+<rem:name>
+Crear Asignatura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Estar logueado en el sistema</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0065">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Selecciona opción &quot;Agregar&quot; en el menú de Asignatura</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0066">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de creacion de asignatura</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0067">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0068">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0012">
+<rem:condition>
+hacen falta campos obligatorios</rem:condition>
+<rem:systemAction>
+<rem:description>
+Le informa al socio que debe diligenciar todos los campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0069">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema guarda el registro de la nueva asignatura y redirecciona al listado de asignaturas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0012">
+<rem:name>
+Editar Asignatura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener Asignatura creada</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0070">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de asignaturas</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0071">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de asignaturas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0072">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Editar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0073">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de edición de asignatura</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0074">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0075">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0013">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0076">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema actualiza el registro de la asignatura y redirecciona al listado de asignaturas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0013">
+<rem:name>
+Eliminar Asignatura</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener asignatura creada</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0077">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de asignaturas</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0078">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de asignaturas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0079">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Eliminar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0080">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema inactivala asignatura y redirecciona al listado de asignaturas</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0014">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de asignaturas</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0016">
+<rem:name>
+Administración de Tests</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.3 </rem:number>
+<rem:useCase
+ oid = "UC-0014">
+<rem:name>
+Crear Test</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Estar logueado en el sistema</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0081">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Selecciona opción &quot;Agregar&quot; en el menú de Tests</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0082">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de creacion del test</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0083">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0084">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0015">
+<rem:condition>
+hacen falta campos obligatorios</rem:condition>
+<rem:systemAction>
+<rem:description>
+Le informa al socio que debe diligenciar todos los campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0085">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema guarda el registro del nuevo test y redirecciona al listado de tests</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0015">
+<rem:name>
+Editar Test</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener Test creado</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0086">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de tests</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0087">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de tests</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0088">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Editar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0089">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de edición de test</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0090">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0091">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0016">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0092">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema actualiza el registro del test y redirecciona al listado de tests</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0016">
+<rem:name>
+Eliminar Test</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener test creado</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0093">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de tests</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0094">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de tests</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0095">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Eliminar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0096">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema inactiva el test y redirecciona al listado de tests</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0017">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de tests</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0017">
+<rem:name>
+Administración de Preguntas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.4 </rem:number>
+<rem:useCase
+ oid = "UC-0017">
+<rem:name>
+Crear Pregunta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Estar logueado en el sistema</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0097">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Selecciona opción &quot;Agregar&quot; en el menú de Preguntas</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0098">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de creacion de pregunta</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0099">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0100">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0018">
+<rem:condition>
+hacen falta campos obligatorios</rem:condition>
+<rem:systemAction>
+<rem:description>
+Le informa al socio que debe diligenciar todos los campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0101">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema guarda el registro de la nueva pregunta y redirecciona al listado de preguntas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0018">
+<rem:name>
+Editar Pregunta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener pregunta creada</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0102">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de preguntas</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0103">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de preguntas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0104">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Editar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0105">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+Devuelve formulario de edición de la pregunta</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0106">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0107">
+<rem:number>6</rem:number>
+<rem:systemAction>
+<rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0019">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0108">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema actualiza el registro de la pregunta y redirecciona al listado de preguntas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0019">
+<rem:name>
+Eliminar Pregunta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener pregunta creada</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0109">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de preguntas</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0110">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de  preguntas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0111">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Eliminar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0112">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema inactiva la pregunta y redirecciona al listado de preguntas</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0020">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de preguntas</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0020">
+<rem:name>
+Importar Pregunta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+<rem:tbd/></rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0113">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Selecciona importar en el menú de preguntas</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0114">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra formulario</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0115">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Selecciona archivo en formato XLS / XLSX que va a importar y envía el formulario</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0116">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema válida que las columnas del archivo subido sean correctos</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0117">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+Realiza inserción masiva de preguntas, cuando termina redirecciona al listado de preguntas</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0013">
+<rem:name>
+Administración de Participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.5 </rem:number>
 <rem:useCase
  oid = "UC-0001">
 <rem:name>
-Crear caso</rem:name>
+Crear Participante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -776,7 +2047,7 @@ Crear caso</rem:name>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0002"/>
+<rem:status value = "STV-0005"/>
 <rem:stability>
 <rem:tbd/>
 </rem:stability>
@@ -785,7 +2056,7 @@ Ninguno</rem:comments>
 <rem:precondition>
 Estar logueado en el sistema</rem:precondition>
 <rem:postcondition>
-Asignar socio</rem:postcondition>
+</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -793,7 +2064,7 @@ Asignar socio</rem:postcondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-Selecciona opción &quot;crear caso&quot;</rem:description>
+Selecciona opción &quot;Agregar&quot; en el menú de Participantes</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -802,7 +2073,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-Devuelve formulario de creacion de caso</rem:description>
+Devuelve formulario de creacion de participante</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -840,7 +2111,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:systemAction>
 <rem:description>
-El sistema guarda el registro del nuevo caso.</rem:description>
+El sistema guarda el registro del nuevo participante y redirecciona al listado de participantes</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -849,7 +2120,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0002">
 <rem:name>
-Asignar gerente a caso</rem:name>
+Editar Participante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -865,14 +2136,14 @@ Asignar gerente a caso</rem:name>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0004"/>
-<rem:status value = "STV-0002"/>
+<rem:status value = "STV-0005"/>
 <rem:stability>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-se tenga creado un caso</rem:triggeringEvent>
+</rem:triggeringEvent>
 <rem:precondition>
-Tener caso creado</rem:precondition>
+Tener participante creado</rem:precondition>
 <rem:postcondition>
 <rem:tbd/></rem:postcondition>
 <rem:frequency>
@@ -882,7 +2153,7 @@ Tener caso creado</rem:precondition>
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresar al caso</rem:description>
+Ingresa al listado de participantes</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -891,7 +2162,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-Muestra la opcion Asignar gerente</rem:description>
+Muestra listado de participantes</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -900,7 +2171,7 @@ Ninguno</rem:comments>
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresa a la opción: Asignar Gerente</rem:description>
+Ingresa a la opción: Editar</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -909,7 +2180,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-Lista gerentes disponibles para asignar</rem:description>
+Devuelve formulario de edición de participante</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -918,7 +2189,7 @@ Ninguno</rem:comments>
 <rem:number>5</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-Selecciona al gerente y da clic en guardar</rem:description>
+Diligencia el formulario y lo envia</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -927,7 +2198,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-valida que el gerente continue disponible y almacena el cambio</rem:description>
+Válida campos obligatorios</rem:description>
 </rem:systemAction>
 <rem:stepException oid = "STX-0002">
 <rem:condition>
@@ -943,18 +2214,27 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
+<rem:step oid = "STP-0030">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema actualiza el registro del participante y redirecciona al listado de participantes</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
 <rem:useCase
- oid = "UC-0003">
+ oid = "UC-0006">
 <rem:name>
-Asignar abogado titular a caso</rem:name>
+Eliminar Participante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>8</rem:month>
-<rem:day>30</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 "/>
@@ -963,96 +2243,78 @@ Asignar abogado titular a caso</rem:name>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0004"/>
-<rem:status value = "STV-0002"/>
+<rem:status value = "STV-0005"/>
 <rem:stability>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-te tenga asignado un gerente al caso</rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
-Tener gerente asociado</rem:precondition>
+Tener participante creado</rem:precondition>
 <rem:postcondition>
 <rem:tbd/></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0013">
+<rem:step oid = "STP-0031">
 <rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0002">
+<rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresar al caso</rem:description>
+Ingresa al listado de participantes</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0014">
+<rem:step oid = "STP-0032">
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-Muestra la opcion Asignar abogado titular</rem:description>
+Muestra listado de  participantes</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0015">
+<rem:step oid = "STP-0033">
 <rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
+<rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresa a la opción: Asignar Abogado titular</rem:description>
+Ingresa a la opción: Eliminar</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0016">
+<rem:step oid = "STP-0036">
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-Lista abogados titulares disponibles para asignar</rem:description>
+El sistema inactiva al participante y redirecciona al listado de participantes</rem:description>
 </rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0017">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-Selecciona el abogado titular y da clic en guardar</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0018">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>
-valida que el abogado titular continue disponible y almacena el cambio</rem:description>
-</rem:systemAction>
-<rem:stepException oid = "STX-0003">
+<rem:stepException oid = "STX-0007">
 <rem:condition>
-Abogado titular no esta disponible</rem:condition>
+Gerente no esta disponible</rem:condition>
 <rem:systemAction>
 <rem:description>
-Solicita que selecione un nuevo abogado titular.</rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
 </rem:systemAction>
 <rem:termination value = "TEV-0002"/>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:stepException>
 <rem:comments>
-Ninguno</rem:comments>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de participantes</rem:comments>
 </rem:step>
 </rem:useCase>
 <rem:useCase
- oid = "UC-0004">
+ oid = "UC-0007">
 <rem:name>
-Asignar abogado asistente a caso</rem:name>
+Importar Participante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>8</rem:month>
-<rem:day>30</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 "/>
@@ -1061,76 +2323,154 @@ Asignar abogado asistente a caso</rem:name>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0004"/>
-<rem:status value = "STV-0002"/>
+<rem:status value = "STV-0005"/>
 <rem:stability>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-se tenga asignado un abogado titular</rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
-Tener abogado titular asociado</rem:precondition>
+</rem:precondition>
 <rem:postcondition>
 <rem:tbd/></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0019">
+<rem:step oid = "STP-0037">
 <rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0003">
+<rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresar al caso</rem:description>
+Selecciona importar en el menú de participantes</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0020">
+<rem:step oid = "STP-0038">
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-Muestra la opcion Asignar abogado asistente con el listado de abogados asistentes asignados previamente</rem:description>
+Muestra formulario</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0021">
+<rem:step oid = "STP-0039">
 <rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0003">
+<rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresa a la opción: Asignar Abogado asistente</rem:description>
+Selecciona archivo en formato XLS / XLSX que va a importar y envía el formulario</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0022">
+<rem:step oid = "STP-0040">
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-Lista abogados asistentes disponibles para asignar</rem:description>
+El sistema válida que las columnas del archivo subido sean correctos</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0023">
+<rem:step oid = "STP-0041">
 <rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0003">
+<rem:systemAction>
 <rem:description>
-Selecciona el abogado asistente y da clic en guardar</rem:description>
+Realiza inserción masiva de participantes, cuando termina redirecciona al listado de participantes</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+<rem:section
+ oid = "SEC-0018">
+<rem:name>
+Administración de Configuración</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.6 </rem:number>
+<rem:useCase
+ oid = "UC-0021">
+<rem:name>
+Crear Configuración</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Estar logueado en el sistema</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0118">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Selecciona opción &quot;Agregar&quot; en el menú de Configuración</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0024">
-<rem:number>6</rem:number>
+<rem:step oid = "STP-0119">
+<rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-valida que el abogado asistente continue disponible y almacena el cambio</rem:description>
+Devuelve formulario de creacion del configuración</rem:description>
 </rem:systemAction>
-<rem:stepException oid = "STX-0004">
-<rem:condition>
-Abogado asistente no esta disponible</rem:condition>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0120">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0121">
+<rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-Solicita que selecione un nuevo abogado asistente</rem:description>
+Válida campos obligatorios</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0021">
+<rem:condition>
+hacen falta campos obligatorios</rem:condition>
+<rem:systemAction>
+<rem:description>
+Le informa al socio que debe diligenciar todos los campos obligatorios</rem:description>
 </rem:systemAction>
 <rem:termination value = "TEV-0002"/>
 <rem:comments>
@@ -1139,102 +2479,204 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
+<rem:step oid = "STP-0122">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema guarda el registro de la nueva configuración y redirecciona al listado de configuración</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
 </rem:useCase>
 <rem:useCase
- oid = "UC-0005">
+ oid = "UC-0022">
 <rem:name>
-Revelar personal de su asignacion</rem:name>
+Editar Configuración</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2018</rem:year>
-<rem:month>8</rem:month>
-<rem:day>30</rem:day>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
 </rem:date>
 </rem:version>
 <rem:authors stakeholders ="STK-0001 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance value = "IMV-0004"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status value = "STV-0002"/>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
 <rem:stability>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-este logueado en el sistema. Los actores que realizan las acciones por parte del usuario son: Socio, Abogado titular y Abogado asistente.</rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
 <rem:precondition>
-Haber iniciado sesión en el sistema</rem:precondition>
+Tener Configuración creada</rem:precondition>
 <rem:postcondition>
 <rem:tbd/></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0026">
+<rem:step oid = "STP-0123">
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresa a la opcion Historico de asignaciones</rem:description>
+Ingresa al listado de configuración</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0027">
+<rem:step oid = "STP-0124">
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-Lista casos en los que esta implicado el usuario logueado</rem:description>
+Muestra listado de configuración</rem:description>
 </rem:systemAction>
-<rem:stepException oid = "STX-0005">
-<rem:condition>
-no existe casos</rem:condition>
-<rem:systemAction>
-<rem:description>
-Muestra mensaje &quot;No tiene casos&quot;</rem:description>
-</rem:systemAction>
-<rem:termination>
-<rem:tbd/>
-</rem:termination>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:stepException>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0028">
+<rem:step oid = "STP-0125">
 <rem:number>3</rem:number>
 <rem:actorAction actor = "ACT-0001">
 <rem:description>
-Ingresa al caso del listado</rem:description>
+Ingresa a la opción: Editar</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0029">
+<rem:step oid = "STP-0126">
 <rem:number>4</rem:number>
 <rem:systemAction>
 <rem:description>
-Lista todas las asignaciones realizadas en el caso (Gerente, abogado titular, abogado asistente)</rem:description>
+Devuelve formulario de edición de configuración</rem:description>
 </rem:systemAction>
-<rem:stepException oid = "STX-0006">
-<rem:condition>
-no tiene asignaciones realizadas</rem:condition>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0127">
+<rem:number>5</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Diligencia el formulario y lo envia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0128">
+<rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-Muestra el mensaje &quot;No tiene asignaciones para el caso&quot;</rem:description>
+Válida campos obligatorios</rem:description>
 </rem:systemAction>
-<rem:termination>
-<rem:tbd/>
-</rem:termination>
+<rem:stepException oid = "STX-0022">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0129">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema actualiza el registro de configuraciónl y redirecciona al listado de configuración</rem:description>
+</rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
 </rem:useCase>
+<rem:useCase
+ oid = "UC-0023">
+<rem:name>
+Eliminar Configuración</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+Tener configuración creada</rem:precondition>
+<rem:postcondition>
+<rem:tbd/></rem:postcondition>
+<rem:frequency>
+<rem:tbd/>
+</rem:frequency>
+<rem:step oid = "STP-0130">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa al listado de configuración</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0131">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+Muestra listado de configuración</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0132">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Ingresa a la opción: Eliminar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0133">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema inactiva la configuraciónt y redirecciona al listado de configuración</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0023">
+<rem:condition>
+Gerente no esta disponible</rem:condition>
+<rem:systemAction>
+<rem:description>
+Solicita que selecione un nuevo gerente.</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de configuración</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
 <rem:section
  oid = "SEC-0012">
 <rem:name>
@@ -1402,10 +2844,49 @@ Ninguno
 <rem:trace source = "UC-0002"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0003"  target = "UC-0002" >
+<rem:trace source = "UC-0006"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0004"  target = "UC-0003" >
+<rem:trace source = "UC-0009"  target = "UC-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "UC-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "UC-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "UC-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "UC-0017" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0019"  target = "UC-0017" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "UC-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0019"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "UC-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "UC-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "UC-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0023"  target = "UC-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0023"  target = "UC-0021" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
@@ -1579,6 +3060,54 @@ Hour:minutes:seconds</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
 <rem:name>Dependiente del diseño</rem:name>
 <rem:description>
@@ -1609,40 +3138,10 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0015">
@@ -1651,40 +3150,22 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
 <rem:name>Otro</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">

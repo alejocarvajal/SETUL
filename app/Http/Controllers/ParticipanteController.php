@@ -137,9 +137,10 @@ class ParticipanteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Participante $participante)
     {
-        //
+        $participante->delete();
+        return redirect()->action('ParticipanteController@index');
     }
     /**
     * @return \Illuminate\Support\Collection

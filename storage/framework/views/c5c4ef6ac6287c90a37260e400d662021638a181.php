@@ -10,18 +10,18 @@
                         <?php echo csrf_field(); ?>
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right"><?php echo e(__('Name')); ?></label>
+                            <label for="nombre" class="col-md-4 col-form-label text-md-right"><?php echo e(__('Name')); ?></label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control <?php if ($errors->has('name')) :
+                                <input id="nombre" type="text" class="form-control <?php if ($errors->has('nombre')) :
 if (isset($message)) { $messageCache = $message; }
-$message = $errors->first('name'); ?> is-invalid <?php unset($message);
+$message = $errors->first('nombre'); ?> is-invalid <?php unset($message);
 if (isset($messageCache)) { $message = $messageCache; }
 endif; ?>" name="nombre" value="<?php echo e(old('nombre')); ?>" required autocomplete="nombre" autofocus>
 
-                                <?php if ($errors->has('nombre')) :
+                                <?php if ($errors->has('name')) :
 if (isset($message)) { $messageCache = $message; }
-$message = $errors->first('nombre'); ?>
+$message = $errors->first('name'); ?>
                                     <span class="invalid-feedback" role="alert">
                                         <strong><?php echo e($message); ?></strong>
                                     </span>
@@ -54,14 +54,14 @@ endif; ?>
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right"><?php echo e(__('Password')); ?></label>
+                            <label for="clave" class="col-md-4 col-form-label text-md-right"><?php echo e(__('Password')); ?></label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control <?php if ($errors->has('password')) :
+                                <input id="clave" type="clave" class="form-control <?php if ($errors->has('clave')) :
 if (isset($message)) { $messageCache = $message; }
-$message = $errors->first('password'); ?> is-invalid <?php unset($message);
+$message = $errors->first('clave'); ?> is-invalid <?php unset($message);
 if (isset($messageCache)) { $message = $messageCache; }
-endif; ?>" name="password" required autocomplete="new-password">
+endif; ?>" name="clave" required autocomplete="new-clave">
 
                                 <?php if ($errors->has('password')) :
 if (isset($message)) { $messageCache = $message; }
@@ -76,10 +76,10 @@ endif; ?>
                         </div>
 
                         <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right"><?php echo e(__('Confirm Password')); ?></label>
+                            <label for="clave-confirm" class="col-md-4 col-form-label text-md-right"><?php echo e(__('Confirm Password')); ?></label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="clave-confirm" type="clave" class="form-control" name="clave_confirmation" required autocomplete="new-clave">
                             </div>
                         </div>
 

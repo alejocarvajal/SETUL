@@ -40,9 +40,9 @@
 <h3>Fecha 30/08/2018</h3>
 <p />
 <h3>Preparado para:</h3>
-<a href="#ORG-0001" title="Abogados Asociados S.A">
+<a href="#ORG-0001" title="Universidad Libre Seccional Pereira">
 <p>
-Abogados Asociados S.A</p>
+Universidad Libre Seccional Pereira</p>
 </a>
 <p />
 <h3>Preparado por:</h3>
@@ -135,6 +135,48 @@ Casos de uso</a>
 </th>
 </tr>
 <tr><td />
+<td align="left" valign="top">5.1 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0014">
+Administración de Usuarios</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.2 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0015">
+Administración de Asignaturas</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.3 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0016">
+Administración de Tests</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.4 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0017">
+Administración de Preguntas</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.5 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0013">
+Administración de Participantes</a>
+</td>
+</tr>
+<tr><td />
+<td align="left" valign="top">5.6 </td>
+<td align="left" valign="top" width="100%" colspan="2">
+<a href="#SEC-0018">
+Administración de Configuración</a>
+</td>
+</tr>
+<tr><td />
 <td align="left" valign="top">5.A </td>
 <td align="left" valign="top" width="100%" colspan="2">
 <a href="#SEC-0012">
@@ -178,7 +220,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">Organización</th>
 <th align="left" valign="top" width="100%">
-Abogados Asociados S.A</th>
+Universidad Libre Seccional Pereira</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dirección</th>
@@ -1647,12 +1689,2437 @@ Ninguno</td>
 <p />
 <a name="SEC-0011" />
 <h1 align="left">5 
-Casos de uso</h1><a name="UC-0001" />
+Casos de uso</h1><a name="SEC-0014" />
+<h2 align="left">5.1 
+Administración de Usuarios</h2><a name="UC-0008" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0008</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Crear Usuario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Estar logueado en el sistema</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0044" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Selecciona opción "Agregar" en el menú de Usuarios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0045" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de creacion de usuario</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0046" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0047" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0048" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+El sistema guarda el registro del nuevo usuario y redirecciona al listado de usuarios</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0009" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+hacen falta campos obligatorios,
+                            </em>el
+     
+    sistema<em>
+Le informa al socio que debe diligenciar todos los campos obligatorios</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0009" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0009</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Editar Usuario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0008" title="Crear Usuario">
+                                [UC-0008] 
+Crear Usuario</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener Usuario creado</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0049" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de usuarios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0050" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de usuarios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0051" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Editar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0052" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de edición de usuario</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0053" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0054" />
+<td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0055" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+El sistema actualiza el registro del usuario y redirecciona al listado de usuarios</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0010" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0010" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0010</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar Usuario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0008" title="Crear Usuario">
+                                [UC-0008] 
+Crear Usuario</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener usuario creado</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0056" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de usuarios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0057" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de usuarios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0058" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Eliminar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0059" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+El sistema inactiva al usuario y redirecciona al listado de usuarios</em>
+                                (<em>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de usuarios</em>)
+                            </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0011" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0015" />
+<h2 align="left">5.2 
+Administración de Asignaturas</h2><a name="UC-0011" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0011</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Crear Asignatura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Estar logueado en el sistema</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0065" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Selecciona opción "Agregar" en el menú de Asignatura</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0066" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de creacion de asignatura</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0067" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0068" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0069" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+El sistema guarda el registro de la nueva asignatura y redirecciona al listado de asignaturas</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0012" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+hacen falta campos obligatorios,
+                            </em>el
+     
+    sistema<em>
+Le informa al socio que debe diligenciar todos los campos obligatorios</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0012" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0012</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Editar Asignatura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0011" title="Crear Asignatura">
+                                [UC-0011] 
+Crear Asignatura</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener Asignatura creada</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0070" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de asignaturas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0071" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de asignaturas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0072" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Editar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0073" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de edición de asignatura</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0074" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0075" />
+<td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0076" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+El sistema actualiza el registro de la asignatura y redirecciona al listado de asignaturas</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0013" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0013" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0013</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar Asignatura</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0011" title="Crear Asignatura">
+                                [UC-0011] 
+Crear Asignatura</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener asignatura creada</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0077" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de asignaturas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0078" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de asignaturas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0079" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Eliminar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0080" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+El sistema inactivala asignatura y redirecciona al listado de asignaturas</em>
+                                (<em>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de asignaturas</em>)
+                            </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0014" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0016" />
+<h2 align="left">5.3 
+Administración de Tests</h2><a name="UC-0014" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0014</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Crear Test</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Estar logueado en el sistema</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0081" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Selecciona opción "Agregar" en el menú de Tests</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0082" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de creacion del test</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0083" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0084" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0085" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+El sistema guarda el registro del nuevo test y redirecciona al listado de tests</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0015" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+hacen falta campos obligatorios,
+                            </em>el
+     
+    sistema<em>
+Le informa al socio que debe diligenciar todos los campos obligatorios</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0015" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0015</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Editar Test</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0014" title="Crear Test">
+                                [UC-0014] 
+Crear Test</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener Test creado</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0086" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de tests</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0087" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de tests</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0088" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Editar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0089" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de edición de test</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0090" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0091" />
+<td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0092" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+El sistema actualiza el registro del test y redirecciona al listado de tests</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0016" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0016" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0016</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar Test</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0014" title="Crear Test">
+                                [UC-0014] 
+Crear Test</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener test creado</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0093" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de tests</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0094" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de tests</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0095" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Eliminar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0096" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+El sistema inactiva el test y redirecciona al listado de tests</em>
+                                (<em>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de tests</em>)
+                            </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0017" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0017" />
+<h2 align="left">5.4 
+Administración de Preguntas</h2><a name="UC-0017" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0017</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Crear Pregunta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Estar logueado en el sistema</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0097" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Selecciona opción "Agregar" en el menú de Preguntas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0098" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de creacion de pregunta</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0099" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0100" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0101" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+El sistema guarda el registro de la nueva pregunta y redirecciona al listado de preguntas</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0018" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+hacen falta campos obligatorios,
+                            </em>el
+     
+    sistema<em>
+Le informa al socio que debe diligenciar todos los campos obligatorios</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0018" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0018</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Editar Pregunta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0017" title="Crear Pregunta">
+                                [UC-0017] 
+Crear Pregunta</a>
+</li>
+<li>
+<a href="#UC-0001" title="Crear Participante">
+                                [UC-0001] 
+Crear Participante</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener pregunta creada</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0102" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de preguntas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0103" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de preguntas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0104" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Editar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0105" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de edición de la pregunta</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0106" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0107" />
+<td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0108" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+El sistema actualiza el registro de la pregunta y redirecciona al listado de preguntas</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0019" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0019" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0019</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar Pregunta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0017" title="Crear Pregunta">
+                                [UC-0017] 
+Crear Pregunta</a>
+</li>
+<li>
+<a href="#UC-0001" title="Crear Participante">
+                                [UC-0001] 
+Crear Participante</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener pregunta creada</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0109" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de preguntas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0110" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de  preguntas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0111" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Eliminar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0112" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+El sistema inactiva la pregunta y redirecciona al listado de preguntas</em>
+                                (<em>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de preguntas</em>)
+                            </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0020" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0020" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0020</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Importar Pregunta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0113" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Selecciona importar en el menú de preguntas</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0114" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra formulario</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0115" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Selecciona archivo en formato XLS / XLSX que va a importar y envía el formulario</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0116" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+El sistema válida que las columnas del archivo subido sean correctos</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0117" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+Realiza inserción masiva de preguntas, cuando termina redirecciona al listado de preguntas</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0013" />
+<h2 align="left">5.5 
+Administración de Participantes</h2><a name="UC-0001" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0001</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Crear caso</th>
+Crear Participante</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -1716,7 +4183,7 @@ Estar logueado en el sistema</td>
 Administrador (ACT-0001)
     </a>
 <em>
-Selecciona opción "crear caso"</em>
+Selecciona opción "Agregar" en el menú de Participantes</em>
 </td>
 </tr>
 <tr>
@@ -1725,7 +4192,7 @@ Selecciona opción "crear caso"</em>
 <td>El
      
     sistema<em>
-Devuelve formulario de creacion de caso</em>
+Devuelve formulario de creacion de participante</em>
 </td>
 </tr>
 <tr>
@@ -1753,13 +4220,13 @@ Válida campos obligatorios</em>
 <td>El
      
     sistema<em>
-El sistema guarda el registro del nuevo caso.</em>
+El sistema guarda el registro del nuevo participante y redirecciona al listado de participantes</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-Asignar socio</td>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -1809,7 +4276,7 @@ Le informa al socio que debe diligenciar todos los campos obligatorios</em>,
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">en construcción</td>
+<td align="left" valign="top" colspan="2">validado</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
@@ -1829,7 +4296,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0002</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Asignar gerente a caso</th>
+Editar Participante</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -1865,9 +4332,9 @@ Cristian Camilo Agudelo</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#UC-0001" title="Crear caso">
+<a href="#UC-0001" title="Crear Participante">
                                 [UC-0001] 
-Crear caso</a>
+Crear Participante</a>
 </li>
 </td>
 </tr>
@@ -1878,16 +4345,16 @@ Crear caso</a>
 
     caso de uso cuando
 <em>
-se tenga creado un caso</em>
+</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Tener caso creado</td>
+Tener participante creado</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -1898,7 +4365,7 @@ Tener caso creado</td>
 Administrador (ACT-0001)
     </a>
 <em>
-Ingresar al caso</em>
+Ingresa al listado de participantes</em>
 </td>
 </tr>
 <tr>
@@ -1907,7 +4374,7 @@ Ingresar al caso</em>
 <td>El
      
     sistema<em>
-Muestra la opcion Asignar gerente</em>
+Muestra listado de participantes</em>
 </td>
 </tr>
 <tr>
@@ -1917,7 +4384,7 @@ Muestra la opcion Asignar gerente</em>
 Administrador (ACT-0001)
     </a>
 <em>
-Ingresa a la opción: Asignar Gerente</em>
+Ingresa a la opción: Editar</em>
 </td>
 </tr>
 <tr>
@@ -1926,7 +4393,7 @@ Ingresa a la opción: Asignar Gerente</em>
 <td>El
      
     sistema<em>
-Lista gerentes disponibles para asignar</em>
+Devuelve formulario de edición de participante</em>
 </td>
 </tr>
 <tr>
@@ -1936,7 +4403,7 @@ Lista gerentes disponibles para asignar</em>
 Administrador (ACT-0001)
     </a>
 <em>
-Selecciona al gerente y da clic en guardar</em>
+Diligencia el formulario y lo envia</em>
 </td>
 </tr>
 <tr>
@@ -1945,7 +4412,16 @@ Selecciona al gerente y da clic en guardar</em>
 <td>El
      
     sistema<em>
-valida que el gerente continue disponible y almacena el cambio</em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0030" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+El sistema actualiza el registro del participante y redirecciona al listado de participantes</em>
 </td>
 </tr>
 <tr>
@@ -2002,7 +4478,7 @@ Solicita que selecione un nuevo gerente.</em>,
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">en construcción</td>
+<td align="left" valign="top" colspan="2">validado</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
@@ -2017,17 +4493,17 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0003" />
+<a name="UC-0006" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0003</th>
+<th align="left" valign="top">UC-0006</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Asignar abogado titular a caso</th>
+Eliminar Participante</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top" colspan="2">1.0
-            ( 30/08/2018 )
+            ( 23/10/2019 )
         </td>
 </tr>
 <tr>
@@ -2058,9 +4534,9 @@ Cristian Camilo Agudelo</a>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#UC-0002" title="Asignar gerente a caso">
-                                [UC-0002] 
-Asignar gerente a caso</a>
+<a href="#UC-0001" title="Crear Participante">
+                                [UC-0001] 
+Crear Participante</a>
 </li>
 </td>
 </tr>
@@ -2071,75 +4547,59 @@ Asignar gerente a caso</a>
 
     caso de uso cuando
 <em>
-te tenga asignado un gerente al caso</em>
+<font color="red"><b>PD</b></font>
+</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Tener gerente asociado</td>
+Tener participante creado</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0013" />
+<a name="STP-0031" />
 <td align="center" valign="top">1</td>
-<td>El actor<a href="#ACT-0002" title="Este actor representa a quien interactua con el sistema">
-Presentador (ACT-0002)
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
     </a>
 <em>
-Ingresar al caso</em>
+Ingresa al listado de participantes</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0014" />
+<a name="STP-0032" />
 <td align="center" valign="top">2</td>
 <td>El
      
     sistema<em>
-Muestra la opcion Asignar abogado titular</em>
+Muestra listado de  participantes</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0015" />
+<a name="STP-0033" />
 <td align="center" valign="top">3</td>
-<td>El actor<a href="#ACT-0002" title="Este actor representa a quien interactua con el sistema">
-Presentador (ACT-0002)
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
     </a>
 <em>
-Ingresa a la opción: Asignar Abogado titular</em>
+Ingresa a la opción: Eliminar</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0016" />
+<a name="STP-0036" />
 <td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
-Lista abogados titulares disponibles para asignar</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0017" />
-<td align="center" valign="top">5</td>
-<td>El actor<a href="#ACT-0002" title="Este actor representa a quien interactua con el sistema">
-Presentador (ACT-0002)
-    </a>
-<em>
-Selecciona el abogado titular y da clic en guardar</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0018" />
-<td align="center" valign="top">6</td>
-<td>El
-     
-    sistema<em>
-valida que el abogado titular continue disponible y almacena el cambio</em>
-</td>
+El sistema inactiva al participante y redirecciona al listado de participantes</em>
+                                (<em>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de participantes</em>)
+                            </td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
@@ -2153,14 +4613,14 @@ valida que el abogado titular continue disponible y almacena el cambio</em>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STX-0003" />
-<td align="center" valign="top">6</td>
+<a name="STX-0007" />
+<td align="center" valign="top">4</td>
 <td>Si<em>
-Abogado titular no esta disponible,
+Gerente no esta disponible,
                             </em>el
      
     sistema<em>
-Solicita que selecione un nuevo abogado titular.</em>,
+Solicita que selecione un nuevo gerente.</em>,
                             a continuación este caso de uso
                              
                             <em>continúa</em>
@@ -2195,7 +4655,7 @@ Solicita que selecione un nuevo abogado titular.</em>,
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">en construcción</td>
+<td align="left" valign="top" colspan="2">validado</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>
@@ -2210,210 +4670,17 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="UC-0004" />
+<a name="UC-0007" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0004</th>
+<th align="left" valign="top">UC-0007</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Asignar abogado asistente a caso</th>
+Importar Participante</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top" colspan="2">1.0
-            ( 30/08/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0001">
-Alejandro Carvajal</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="2">
-<ul>
-<li>
-<a href="#STK-0002">
-Cristian Camilo Agudelo</a>
-<br />
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">
-<li>
-<a href="#UC-0003" title="Asignar abogado titular a caso">
-                                [UC-0003] 
-Asignar abogado titular a caso</a>
-</li>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="2">
-    El sistema deberá comportarse tal como se describe en el siguiente
-
-    caso de uso cuando
-<em>
-se tenga asignado un abogado titular</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Precondición</th>
-<td align="left" valign="top" colspan="2">
-Tener abogado titular asociado</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STP-0019" />
-<td align="center" valign="top">1</td>
-<td>El actor<a href="#ACT-0003" title="Este actor representa Tipo de empleado">
-Abogado titular (ACT-0003)
-    </a>
-<em>
-Ingresar al caso</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0020" />
-<td align="center" valign="top">2</td>
-<td>El
-     
-    sistema<em>
-Muestra la opcion Asignar abogado asistente con el listado de abogados asistentes asignados previamente</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0021" />
-<td align="center" valign="top">3</td>
-<td>El actor<a href="#ACT-0003" title="Este actor representa Tipo de empleado">
-Abogado titular (ACT-0003)
-    </a>
-<em>
-Ingresa a la opción: Asignar Abogado asistente</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0022" />
-<td align="center" valign="top">4</td>
-<td>El
-     
-    sistema<em>
-Lista abogados asistentes disponibles para asignar</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0023" />
-<td align="center" valign="top">5</td>
-<td>El actor<a href="#ACT-0003" title="Este actor representa Tipo de empleado">
-Abogado titular (ACT-0003)
-    </a>
-<em>
-Selecciona el abogado asistente y da clic en guardar</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0024" />
-<td align="center" valign="top">6</td>
-<td>El
-     
-    sistema<em>
-valida que el abogado asistente continue disponible y almacena el cambio</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Postcondición</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Excepciones</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Acción</th>
-</tr>
-<tr>
-<a name="STX-0004" />
-<td align="center" valign="top">6</td>
-<td>Si<em>
-Abogado asistente no esta disponible,
-                            </em>el
-     
-    sistema<em>
-Solicita que selecione un nuevo abogado asistente</em>,
-                            a continuación este caso de uso
-                             
-                            <em>continúa</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Rendimiento</th>
-<th align="center" valign="top">Paso</th>
-<th align="left" valign="top" width="100%">Tiempo máximo</th>
-</tr>
-<tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
-</tr>
-<tr>
-<th align="left" valign="top">Frecuencia esperada</th>
-<td colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">vital</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">puede esperar</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">en construcción</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="2">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="UC-0005" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">UC-0005</th>
-<th align="left" valign="top" width="100%" colspan="2">
-Revelar personal de su asignacion</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="2">1.0
-            ( 30/08/2018 )
+            ( 23/10/2019 )
         </td>
 </tr>
 <tr>
@@ -2451,55 +4718,65 @@ Cristian Camilo Agudelo</a>
 
     caso de uso cuando
 <em>
-este logueado en el sistema. Los actores que realizan las acciones por parte del usuario son: Socio, Abogado titular y Abogado asistente.</em>
+<font color="red"><b>PD</b></font>
+</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-Haber iniciado sesión en el sistema</td>
+</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STP-0026" />
+<a name="STP-0037" />
 <td align="center" valign="top">1</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
 Administrador (ACT-0001)
     </a>
 <em>
-Ingresa a la opcion Historico de asignaciones</em>
+Selecciona importar en el menú de participantes</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0027" />
+<a name="STP-0038" />
 <td align="center" valign="top">2</td>
 <td>El
      
     sistema<em>
-Lista casos en los que esta implicado el usuario logueado</em>
+Muestra formulario</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0028" />
+<a name="STP-0039" />
 <td align="center" valign="top">3</td>
 <td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
 Administrador (ACT-0001)
     </a>
 <em>
-Ingresa al caso del listado</em>
+Selecciona archivo en formato XLS / XLSX que va a importar y envía el formulario</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0029" />
+<a name="STP-0040" />
 <td align="center" valign="top">4</td>
 <td>El
      
     sistema<em>
-Lista todas las asignaciones realizadas en el caso (Gerente, abogado titular, abogado asistente)</em>
+El sistema válida que las columnas del archivo subido sean correctos</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0041" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+Realiza inserción masiva de participantes, cuando termina redirecciona al listado de participantes</em>
 </td>
 </tr>
 <tr>
@@ -2509,40 +4786,196 @@ Lista todas las asignaciones realizadas en el caso (Gerente, abogado titular, ab
 </td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="3">Excepciones</th>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<a name="STX-0005" />
-<td align="center" valign="top">2</td>
-<td>Si<em>
-no existe casos,
-                            </em>el
-     
-    sistema<em>
-Muestra mensaje "No tiene casos"</em>,
-                            a continuación este caso de uso
-                             
-                            <em>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0018" />
+<h2 align="left">5.6 
+Administración de Configuración</h2><a name="UC-0021" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0021</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Crear Configuración</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
 <font color="red"><b>PD</b></font>
 </em>
 </td>
 </tr>
 <tr>
-<a name="STX-0006" />
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Estar logueado en el sistema</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="6">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0118" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Selecciona opción "Agregar" en el menú de Configuración</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0119" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de creacion del configuración</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0120" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0121" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0122" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+El sistema guarda el registro de la nueva configuración y redirecciona al listado de configuración</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0021" />
 <td align="center" valign="top">4</td>
 <td>Si<em>
-no tiene asignaciones realizadas,
+hacen falta campos obligatorios,
                             </em>el
      
     sistema<em>
-Muestra el mensaje "No tiene asignaciones para el caso"</em>,
+Le informa al socio que debe diligenciar todos los campos obligatorios</em>,
                             a continuación este caso de uso
                              
-                            <em>
-<font color="red"><b>PD</b></font>
-</em>
+                            <em>continúa</em>
 </td>
 </tr>
 <tr>
@@ -2566,15 +4999,405 @@ Muestra el mensaje "No tiene asignaciones para el caso"</em>,
 </tr>
 <tr>
 <th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="2">quedaría bien</td>
+<td align="left" valign="top" colspan="2">vital</td>
 </tr>
 <tr>
 <th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="2">hay presión</td>
+<td align="left" valign="top" colspan="2">inmediatamente</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="2">en construcción</td>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0022" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0022</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Editar Configuración</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0014" title="Crear Test">
+                                [UC-0014] 
+Crear Test</a>
+</li>
+<li>
+<a href="#UC-0021" title="Crear Configuración">
+                                [UC-0021] 
+Crear Configuración</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener Configuración creada</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0123" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de configuración</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0124" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de configuración</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0125" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Editar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0126" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+Devuelve formulario de edición de configuración</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0127" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Diligencia el formulario y lo envia</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0128" />
+<td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+Válida campos obligatorios</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0129" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+El sistema actualiza el registro de configuraciónl y redirecciona al listado de configuración</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0022" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0023" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0023</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Eliminar Configuración</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 23/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0001">
+Alejandro Carvajal</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<ul>
+<li>
+<a href="#STK-0002">
+Cristian Camilo Agudelo</a>
+<br />
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#UC-0014" title="Crear Test">
+                                [UC-0014] 
+Crear Test</a>
+</li>
+<li>
+<a href="#UC-0021" title="Crear Configuración">
+                                [UC-0021] 
+Crear Configuración</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+<font color="red"><b>PD</b></font>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+Tener configuración creada</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="5">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STP-0130" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa al listado de configuración</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0131" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+Muestra listado de configuración</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0132" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0001" title="Este actor representa al administrador del sistema">
+Administrador (ACT-0001)
+    </a>
+<em>
+Ingresa a la opción: Eliminar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0133" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+El sistema inactiva la configuraciónt y redirecciona al listado de configuración</em>
+                                (<em>
+El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de configuración</em>)
+                            </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<a name="STX-0023" />
+<td align="center" valign="top">4</td>
+<td>Si<em>
+Gerente no esta disponible,
+                            </em>el
+     
+    sistema<em>
+Solicita que selecione un nuevo gerente.</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">vital</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">puede esperar</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">validado</td>
 </tr>
 <tr>
 <th align="left" valign="top">Estabilidad</th>

@@ -144,6 +144,7 @@ class TestController extends Controller
      */
     public function destroy(Test $test)
     {
-        //
+        $test->delete();
+        return redirect()->action('TestController@index');
     }
 }

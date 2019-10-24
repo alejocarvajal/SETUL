@@ -487,123 +487,6 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [El sistema inactivala test y redirecciona al listado de tests] -> [El sistema inactiva el test y redirecciona al listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0023</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Comments] del hijo nº4 actualizada: [El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de tests] -> [El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0023</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Precondition] actualizada [Tener test creado] -> [Tener configuración creada]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0023</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Eliminar Test] -> [Eliminar Configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0023</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Muestra listado de tests] -> [Muestra listado de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0023</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [El sistema inactivala test y redirecciona al listado de tests] -> [El sistema inactiva la configuraciónt y redirecciona al listado de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0023</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Ingresa al listado de tests] -> [Ingresa al listado de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº7 actualizada: [El sistema actualiza el registro del testy redirecciona al listado de tests] -> [El sistema actualiza el registro de configuraciónl y redirecciona al listado de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [Devuelve formulario de edición de configuracion] -> [Devuelve formulario de edición de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [Devuelve formulario de edición de test] -> [Devuelve formulario de edición de configuracion]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Muestra listado de tests] -> [Muestra listado de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Ingresa al listado de tests] -> [Ingresa al listado de configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada traza hacia [UC-0021] Crear Configuración]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -613,337 +496,112 @@
 <rem:description><![CDATA[Eliminado el objeto [UC-0011] Importar Usuario con 5 hijos y 2 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada traza desde [UC-0015] Editar Test]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>UC-0023</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0016] Eliminar Test del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0015] Editar Test del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0022] ]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Editar Test] -> [Editar Configuración]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0022] ]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada traza hacia [UC-0021] Crear Configuración]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada traza desde [UC-0016] Eliminar Test]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Crear Test] -> [Crear Configuración]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº5 actualizada: [El sistema guarda el registro del nuevo test y redirecciona al listado de tests] -> [El sistema guarda el registro de la nueva configuración y redirecciona al listado de configuración]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0022</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Precondition] actualizada [Tener Test creado] -> [Tener Configuración creada]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
 <rem:day>23</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº7 actualizada: [El sistema actualiza el registro del testy redirecciona al listado de tests] -> [El sistema actualiza el registro del test y redirecciona al listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza hacia [UC-0021] ]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0014] Crear Test del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza hacia [UC-0021] ]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Selecciona opción "Agregar" en el menú de Tests] -> [Selecciona opción "Agregar" en el menú de Configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0023] ]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0020</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Importar Participante] -> [Importar Pregunta]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0021</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Devuelve formulario de creacion del test] -> [Devuelve formulario de creacion del configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0023] ]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [SEC-0016] Administración de Tests del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0020</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº5 actualizada: [Realiza inserción masiva de participantes, cuando termina redirecciona al listado de participantes] -> [Realiza inserción masiva de preguntas, cuando termina redirecciona al listado de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0019</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Precondition] actualizada [Tener participante creado] -> [Tener pregunta creada]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0019</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Eliminar Participante] -> [Eliminar Pregunta]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0019</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [El sistema inactiva al participante y redirecciona al listado de participantes] -> [El sistema inactiva la pregunta y redirecciona al listado de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0019</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Muestra listado de  participantes] -> [Muestra listado de  preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0019</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Ingresa al listado de participantes] -> [Ingresa al listado de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0020</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Selecciona importar en el menú de participantes] -> [Selecciona importar en el menú de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Precondition] actualizada [Tener participante creado] -> [Tener pregunta creada]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Editar Participante] -> [Editar Pregunta]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº7 actualizada: [El sistema actualiza el registro del participante y redirecciona al listado de participantes] -> [El sistema actualiza el registro de la pregunta y redirecciona al listado de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0019</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Comments] del hijo nº4 actualizada: [El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de participantes] -> [El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada traza desde [UC-0006] Eliminar Participante]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada traza desde [UC-0002] Editar Participante]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Crear Participante] -> [Crear Pregunta]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [SEC-0013] Administración de Participantes del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>UC-0020</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0007] Importar Participante del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -1019,398 +677,542 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
+<rem:owner>SEC-0020</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Comments] del hijo nº4 actualizada: [El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de usuarios] -> [El sistema no elimina de la base de datos el registro, solo le pone una fecha de terminación. No aparece en el listo de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº7 actualizada: [El sistema actualiza el registro de la asignatura y redirecciona al listado de asignaturas] -> [El sistema actualiza el registro del testy redirecciona al listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Administración de Asignaturas] -> [Administración de Tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº5 actualizada: [El sistema guarda el registro de la nueva asignatura y redirecciona al listado de asignaturas] -> [El sistema guarda el registro del nuevo test y redirecciona al listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Muestra listado de asignaturas] -> [Muestra listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [Devuelve formulario de edición de asignatura] -> [Devuelve formulario de edición de test]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0008] Crear Usuario)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:owner>GRF-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [SEC-0015] Administración de Asignaturas del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0016] ]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0013] Eliminar Asignatura del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Ingresa al listado de asignaturas] -> [Ingresa al listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0011] Crear Asignatura del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Devuelve formulario de creacion de asignatura] -> [Devuelve formulario de creacion del test]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0015] ]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0012] Editar Asignatura del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Selecciona opción "Agregar" en el menú de Asignatura] -> [Selecciona opción "Agregar" en el menú de Tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Crear Asignatura] -> [Crear Test]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada traza desde [UC-0012] Editar Asignatura]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0014</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada traza desde [UC-0013] Eliminar Asignatura]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
+<rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0005]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº5 actualizada: [El sistema guarda el registro del nuevo participante y redirecciona al listado de participantes] -> [El sistema guarda el registro de la nueva pregunta y redirecciona al listado de preguntas]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0001] Crear caso con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Editar Asignatura] -> [Editar Test]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Precondition] actualizada [Tener Asignatura creada] -> [Tener Test creado]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0015</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada traza hacia [UC-0011] Crear Asignatura]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [El sistema inactivala asignatura y redirecciona al listado de asignaturas] -> [El sistema inactivala test y redirecciona al listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Ingresa al listado de asignaturas] -> [Ingresa al listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Muestra listado de asignaturas] -> [Muestra listado de tests]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Eliminar Asignatura] -> [Eliminar Test]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Precondition] actualizada [Tener asignatura creada] -> [Tener test creado]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0016</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada traza hacia [UC-0011] Crear Asignatura]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº4 actualizada: [Devuelve formulario de edición de participante] -> [Devuelve formulario de edición de la pregunta]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Ingresa al listado de participantes] -> [Ingresa al listado de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Administración de Tests] -> [Administración de Configuración]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Selecciona opción "Agregar" en el menú de Participantes] -> [Selecciona opción "Agregar" en el menú de Preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Devuelve formulario de creacion de participante] -> [Devuelve formulario de creacion de pregunta]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0019] ]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0012] Modelo con 4 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>UC-0019</rem:owner><rem:date>
+<rem:owner>SEC-0022</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0006] Eliminar Participante del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0002] Asignar gerente a caso con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0003] Asignar abogado titular a caso con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0004] Asignar abogado asistente a caso con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
+<rem:owner>SEC-0025</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0001] Crear Participante del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0018</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [Muestra listado de participantes] -> [Muestra listado de preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Administración de Participantes] -> [Administración de Preguntas]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>UC-0017</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>23</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [UC-0018] ]]></rem:description>
+<rem:description><![CDATA[Clonado a partir de [SEC-0024] Copia de Copia de Diagrama del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>UC-0018</rem:owner><rem:date>
+<rem:owner>SEC-0020</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>10</rem:month>
-<rem:day>23</rem:day>
+<rem:day>24</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [UC-0002] Editar Participante del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([SEC-0020] Casos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0012] Editar Asignatura)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0009] Editar Usuario)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0001] Casos de uso Usuarios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0020] Casos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0010] Eliminar Usuario)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0021] Diagrama del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0022] Casos del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0023] Copia de Diagrama del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0011] Crear Asignatura)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0025] Copia de Copia de Copia de Diagrama del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Diagrama] -> [Diagrama]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Diagrama] -> [Diagrama]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de Diagrama] -> [Diagrama]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de Copia de Diagrama] -> [Diagrama]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0027] Copia de Casos del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0029] Copia de Copia de Copia de Casos del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [SEC-0028] Copia de Copia de Casos del proyecto F:\SETUL\SETUL\doc\REMI\Proyecto IntegralSoft.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0013] Eliminar Asignatura)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0014] Crear Test)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0015] Editar Test)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0016] Eliminar Test)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Casos] -> [Casos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0020] Importar Pregunta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0017] Crear Pregunta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0027</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Casos] -> [Casos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0018] Editar Pregunta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0019] Eliminar Pregunta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0007] Importar Participante)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0001] Crear Participante)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0002] Editar Participante)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de Casos] -> [Casos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0006] Eliminar Participante)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0021] Crear Configuración)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0022] Editar Configuración)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Copia de Copia de Copia de Casos] -> [Casos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0023] Eliminar Configuración)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0002] Casos de uso Asignaturas)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0003] Casos de uso Tests)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0004] Casos de uso Preguntas)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0005] Casos de uso Participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>24</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0006] Casos de uso Configuración)]]></rem:description>
 </rem:change>
 </rem:log>

@@ -2,7 +2,7 @@
 <!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files (x86)\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
-<rem:name>Proyecto IntegralSoft</rem:name>
+<rem:name>Proyecto SETUL</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
 <rem:name>Documento de Requisitos del Sistema</rem:name>
 <rem:version>

@@ -26,7 +26,6 @@ th {
 	border-collapse: separate;
   	border-spacing: 10px;
 }
-
 .tr_respuesta:hover {
 	background-color: #28B463;
   	cursor: pointer;

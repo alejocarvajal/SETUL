@@ -1,9 +1,9 @@
 @extends('layouts.admin')
-@section('title', "Editar test")
+@section('title', "Editar Pregunta")
 
 @section('contenido')
     <div class="card">
-        <h4 class="card-header">Editar Test</h4>
+        <h4 class="card-header">Editar Pregunta</h4>
         <div class="card-body">
 
             @if ($errors->any())

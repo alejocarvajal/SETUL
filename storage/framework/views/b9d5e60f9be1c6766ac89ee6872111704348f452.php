@@ -1,8 +1,8 @@
-<?php $__env->startSection('title', "Editar test"); ?>
+<?php $__env->startSection('title', "Editar Participante"); ?>
 
 <?php $__env->startSection('contenido'); ?>
     <div class="card">
-        <h4 class="card-header">Editar Test</h4>
+        <h4 class="card-header">Editar Participante</h4>
         <div class="card-body">
 
             <?php if($errors->any()): ?>

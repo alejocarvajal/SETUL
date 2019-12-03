@@ -2,7 +2,7 @@
       <?php echo e(csrf_field()); ?>
 
       <div class="form-group">
-            <label for="nombre">Nombre:</label>
+            <label for="name">Nombre:</label>
             <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Pedro Perez" value="<?php echo e((isset($user) ? old('nombre',$user->nombre) : old('nombre'))); ?>">
       </div>
 
@@ -18,5 +18,4 @@
 
       <button type="submit" class="btn btn-primary">GUARDAR</button>
 
-</div>
-<?php /**PATH F:\SETUL\resources\views/users/userForm/form.blade.php ENDPATH**/ ?>
+</div><?php /**PATH F:\SETUL\resources\views/users/userForm/form.blade.php ENDPATH**/ ?>

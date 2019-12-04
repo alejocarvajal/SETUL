@@ -110,23 +110,6 @@ Ninguno</rem:comments>
 <rem:stakeholderRole>Analista - Desarrollador</rem:stakeholderRole>
 <rem:isDeveloper/>
 </rem:stakeholder>
-<rem:stakeholder
- oid = "STK-0003">
-<rem:name>
-Rosa</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2018</rem:year>
-<rem:month>8</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:stakeholderRole>Tester funcional y Lider </rem:stakeholderRole>
-</rem:stakeholder>
 </rem:section>
 <rem:section
  oid = "SEC-0001">
@@ -2460,6 +2443,23 @@ El sistema no elimina de la base de datos el registro, solo le pone una fecha de
 </rem:section>
 </rem:section>
 </rem:section>
+<rem:stakeholder
+ oid = "STK-0003">
+<rem:name>
+Rosa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2018</rem:year>
+<rem:month>8</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Tester funcional y Lider </rem:stakeholderRole>
+</rem:stakeholder>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
 <rem:name>Documento de Análisis del Sistema</rem:name>

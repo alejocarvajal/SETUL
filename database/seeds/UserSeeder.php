@@ -1,7 +1,5 @@
 <?php
 
-use App\User;
-use App\Profession;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -14,13 +12,15 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        factory(User::class)->create([
+        DB::table('users')->insert([
             'nombre' => 'admin',
-            'email' => 'alejo.carvajal03@gmail.com',
-            'clave' => bcrypt('123'),
+            'email' => 'admin@admin.com',
+            'password' => bcrypt('admin'),
         ]);
-
-
-        factory(User::class, 2)->create();
+        /*factory(User::class)->create([
+            'nombre' => 'admin',
+            'email' => 'admin@admin.com',
+            'password' => bcrypt('admin'),
+        ]);*/
     }
 }

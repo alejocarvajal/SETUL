@@ -15,7 +15,7 @@ class Pregunta extends Model
 
     public function respuestas()
     {
-        return $this->hasMany(Respuesta::class)->orderBy('correcta', 'desc');
+        return $this->hasMany(Respuesta::class)->inRandomOrder();
     }
 
     public function asignatura()
@@ -36,7 +36,7 @@ class Pregunta extends Model
         ->where("id","=",$respuesta_id)
         ->where("correcta","=",1)
         ->get();
-        
+
         if($respuesta->isEmpty()){
             $resp=false;
         }

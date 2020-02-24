@@ -51,16 +51,16 @@ class juegoController extends Controller
         $fondo_juego = Configuracion::where("nombre","=","fondo_modo_juego")->first();
         $registro_juego = RegistroJuego::where('participante_id','=',$participante->id)
                         ->whereNull("respuesta_id")
-                        ->where("estado","=","1")
+                        ->where("estado","=","0")
                         ->orderBy('orden','asc')->get();
         $pregunta = Pregunta::find($registro_juego[0]->pregunta_id);
-        
+
         $respuestas = Pregunta::find($registro_juego[0]->pregunta_id)->respuestas()->get();
-        
+
         return view('juego.preguntas', compact('fondo_juego','registro_juego','pregunta','respuestas'));
     }
     public function reiniciarJuego(Participante $participante){
-        
+
         $campos_registro_juego = ([
             'estado' => 0
         ]);
@@ -74,7 +74,8 @@ class juegoController extends Controller
 
         //Registra la respuesta
         $campos_registro_juego = ([
-            'respuesta_id' => $request->tipo
+            'respuesta_id' => $request->tipo,
+            'estado' => 1,
         ]);
         RegistroJuego::where('participante_id',$request->id)
                     ->where('pregunta_id','=',$request->idpregunta)
@@ -88,7 +89,7 @@ class juegoController extends Controller
 	        $response["etiqueta_consecutivo"]="puntaje_".$request->consecutivo;
             $registro_juego = RegistroJuego::where('participante_id','=',$request->id)
                         ->whereNull("respuesta_id")
-                        ->where("estado","=","1")
+                        ->where("estado","=","0")
                         ->orderBy('orden','asc')->get();
             if($registro_juego->isEmpty()){
                 $response["pregunta"]='';
@@ -103,7 +104,7 @@ class juegoController extends Controller
             }else{
                 $pregunta = Pregunta::find($registro_juego[0]->pregunta_id);
                 $respuestas = Pregunta::find($registro_juego[0]->pregunta_id)->respuestas()->get();
-    
+
                 $response["pregunta"]=$pregunta->pregunta;
                 $response["idpregunta"]=$pregunta->id;
                 $response["r1"]="A) ".$respuestas[0]->respuesta;
@@ -115,7 +116,7 @@ class juegoController extends Controller
                 $response["idr3"]=$respuestas[2]->id;
                 $response["idr4"]=$respuestas[3]->id;
                 $response["fin"]=false;
-                
+
                 $response["continuar"]=true;
                 $response["porcentaje_barra"]=round((($response["consecutivo"] -1)/$request->cantidad)*100);
             }
@@ -152,7 +153,7 @@ class juegoController extends Controller
         $datos_jugador['correctas'] = $respuestas;
 
        $registro=RegistroJuego::where('participante_id','=',$participante->id);
-        
+
        $registro->update((['estado' => 0]));
        $registro->delete();
 

@@ -3,17 +3,13 @@
 namespace App\Imports;
 
 use App\Participante;
-use Maatwebsite\Excel\Concerns\ToModel;
+use Maatwebsite\Excel\Row;
+use Maatwebsite\Excel\Concerns\OnEachRow;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 
-class ParticipantesImport implements ToModel, WithHeadingRow
+class ParticipantesImport implements OnEachRow, WithHeadingRow
 {
-    /**
-    * @param array $row
-    *
-    * @return \Illuminate\Database\Eloquent\Model|null
-    */
-    public function model(array $row)
+    /*public function model(array $row)
     {
         return new Participante([
             'nombres' => $row['nombres'],
@@ -23,6 +19,15 @@ class ParticipantesImport implements ToModel, WithHeadingRow
             'opc2' => $row['opcion2'],
             'test_id' => $row['test_id'],
         ]);
+    }*/
+
+    public function onRow(Row $row)
+    {
+        $rowIndex = $row->getIndex();
+        $row      = $row->toArray();
+        if($rowIndex!=1){
+            Participante::createParticipanteImport($row);
+        }
     }
-    
+
 }

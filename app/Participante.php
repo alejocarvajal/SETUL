@@ -21,7 +21,7 @@ class Participante extends Model
     }
     public static function findExport(){
         $participantes = DB::table('participantes')
-                ->select('nombres','identificacion','universidad','opc1 as opcion1','opc2 as opcion2','test_id',)
+                ->select('nombres','identificacion','universidad','opc1 as opcion1','opc2 as opcion2','test_id')
                 ->get();
         return $participantes;
     }

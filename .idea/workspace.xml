@@ -2,32 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed70d58f-677d-4879-bc1b-3302a0fcfccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SETUL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/asignatura/asignaturaForm/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/asignatura/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/asignatura/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/asignatura/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test/testForm/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SETUL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SETUL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Participante.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Participante.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X013036e91ea81ec96ae647b04d7e4cf4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X034650a880aae7d32d6cb4d383637eae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X06d72c4fb729ae3a3f6338bbd6be8eec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0769f5dc2ca9aae9fdd7854d5474dd5e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0990841f3c408cf7c88f6dd2bf52907f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X09b641798c1733b29588af8f88cb9c76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0b44ea24ead5930d4f4c61646d1737a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0cae6ff79329fa4ba6e7291aeba11114.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X126081faed0fe1e08c06667d31dc0abc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X12e3ddfb6e49824bf59cee9115b0d4bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X14e96854eefad49b4cda0b150a5b2cb6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X16e1292fc8b7b896753fecb8f886eea7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X189579f163ecfe9ef9607223a8307d8e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X231758409024b25a095276710034b90a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2acba83094a2b9c36732433d4105f252.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2f43316b10af4562d29047747bb0dc1c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X30be135a3b748517940948659de443c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3a308411c019dd7ce5751378dda430ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3d065c8b6c73535598cefd32d7507d67.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X452b98dd3e492dd81be8e11484bb77a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X46354342eced7a3b3022ea60c2cacfc4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4f05a32ef6fda1a8149bb39a3f331b95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X50ee377eded7e990ab5f5d03f1ddafab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X52be8f0366654802c5bab76b9c22c0c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X5753ab46b98279bd6f0834c3da81a5cb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X59521f35733fe839cf5954dbf79c7b74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X5eac16b27c8ea3087ec233ab324e8b74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X615c7f6e2b55f37125f7873e213eed67.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X636cf1be658a636137a94a9de17f1c31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X643fb31f1d7077b812af367974b2123d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X64d31b75992982e23840ff3dd15144a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6766dc2d7565a605f76bcadc0115f0b8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6a981fe29da99918eff7e210aaac30b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6dfdf99ecc4e59a4dd574b885d34fbcb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6ee92fadb73d65ace3ddeebe3364da02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X70f62ad60114ecea87198acd04d45fbc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X723030f022a460b31197ac33aee1075b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X77a60a470c0030c91f554877dbc7b361.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7a400a5f52ec1a5f48dec56c486bfe80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X8577ea3b231803f8426329701ece44cb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X85d4c2abe7218b16693499c7a3af956c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X880c94ed74501a79bf6fe03d5f16b9ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9769bf7e5dfba57077d5a2fc22e2cab1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X989dbada252a21257e0c83e767079a49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9f4d66631d771edd6424d422f0fa1355.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9feb29322fc15f072f8ed8419ba5f3d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa1629b193469c46c4b18d2b8dd006370.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa3859bae66c16fe6a0fe1f4bc52abe0b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xaa8eb0f353c6f348009b3a786b6e88a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xac80baf727c86bf7c8e1dc6dadaa35ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xacc2802bca70dfb994cb0dfd8a611a8d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xae6dd40a3350c21c7ec95f0964deb2d5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb00b259f92f1ea58b6e83e657afffcd5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb48ddf6b8150ecbafb386d4e86f840c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb7f8007a3231a4550251bf39245e64f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb85fc4f6933f3b8bb6126e4af4e54b2f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb8a9c7b76a216ded53fa770d062ae089.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xba1b6818582c540e4fe75f7e2d7614a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xbbc023dbe4afd830a30e94fc22fe161c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xbd305e3bc1f2cc443d818bb7926f0745.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xbe391f5123fa374b9b1f7a976fd46318.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xbeecf9ed4f36ea9efd1aa9dedc35721e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xbf3c2621f7184f02339b2f9ac4e16379.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xc4bb5b832216448fa544a8bc288ac6fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xcaef341f10aaca6ef5585a682cf6073a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xccacf6e8d8371885686dbd4121e36bf2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd172f88f7e947b2cb23ac21d78619cef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd312232ea51e9aa233bf21100c3c367a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd61a29bb053367df9909981859b4dcd3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd8455acadc3511da9349004294c2a323.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xdbe228d6b5ff36a910cc8c4816524c59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe023599383ea24515f1043bd4e3bb05a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe17aca483889d8c461f6c624a58baf42.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe568d3b28225844b4dc2adc75a92c430.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe5d9f10489b93152146ee551a2fa3693.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe75b98655056f4c6c63d66c49523db2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xec9f37ec05cbcc34b04dd6613f257f0d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf4b541ac3af202ee8c37099179a7d525.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf565a59a8eb78653fcd857e669b7d381.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf728bf3a93d87b6a446b99bfff6d42be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xfa9d509aa3d0352232990518d785292e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xfbe831793f94be99e329370aa0377005.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xfe62f65c7301661df33bbdeb0643987d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xfed0f4fdf09902f788e445f5422b577d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/BGj5bpOwG9bWe2UoYjqqVI1Nrr3Nbb4s8XuPirZ0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/WWnZIqLrJBrnt97RKiii6QqIXSVzKHxdHUQq9gRs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/zfXD0yailCZeLQVQUACPSrRExsJJmJzA3PncCla4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +106,17 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -55,6 +129,7 @@
       <find>asginatura</find>
       <find>store</find>
       <find>errors.alerts.errorUsers</find>
+      <find>log</find>
     </findStrings>
     <replaceStrings>
       <replace>asignatura</replace>
@@ -66,9 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
         <option value="$PROJECT_DIR$/p/resources/views/admin/index.blade.php" />
         <option value="$PROJECT_DIR$/p/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/users/show.blade.php" />
@@ -117,6 +189,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PreguntaController.php" />
         <option value="$PROJECT_DIR$/resources/views/pregunta/preguntaForm/form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/test/testForm/form.blade.php" />
+        <option value="$PROJECT_DIR$/app/Participante.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
       </list>
     </option>
   </component>
@@ -202,9 +277,20 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -224,6 +310,29 @@
               <item name="SETUL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SETUL" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SETUL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SETUL" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SETUL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SETUL" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SETUL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SETUL" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SETUL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SETUL" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,8 +344,11 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -287,16 +399,18 @@
       <workItem from="1559158628695" duration="3952000" />
       <workItem from="1559242315386" duration="597000" />
       <workItem from="1559661761517" duration="11000" />
+      <workItem from="1589751838301" duration="4030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94488000" />
+    <option name="totallyTimeSpent" value="98518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
+      <window_info id="npm" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,7 +424,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,61 +447,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#7#20#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_09_23_174857_create_table_asignatura.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="e#7#36#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/users/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/users/userForm/form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="e#23#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,23 +461,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/AsignaturaSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/TestSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="e#6#19#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/AsignaturaSeeder.php" />
+    <entry file="file://$PROJECT_DIR$/database/seeds/TestSeeder.php" />
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -448,13 +496,7 @@
     <entry file="file://$USER_HOME$/Desktop/SETUL/SETUL/app/Respuestas.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Http/Controllers/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Http/Controllers/TestController.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/asignatura/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -511,16 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_09_24_163833_create_table_participantes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -528,24 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AsignaturaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="99" column="15" lean-forward="true" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="104" column="64" selection-start-line="104" selection-start-column="64" selection-end-line="104" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="54" column="90" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -618,34 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Respuesta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Http/Controllers/PreguntaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="58" column="55" lean-forward="true" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Pregunta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Test.php" />
+    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Respuesta.php" />
+    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Http/Controllers/PreguntaController.php" />
+    <entry file="file://$PROJECT_DIR$/../SETUL2/SETUL/app/Pregunta.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/test/testForm/form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -704,6 +698,75 @@
           <folding>
             <element signature="e#23#62#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Participante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#23#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="59" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AsignaturaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="95" column="10" lean-forward="true" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
